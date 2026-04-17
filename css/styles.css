@@ -617,6 +617,10 @@ a {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-close-button:hover,
+.modal-close-button:focus {
+  background-color: #404bbf; 
+  border: none;
 
 .modal-close-button:hover .modal-close-icon,
 .modal-close-button:focus .modal-close-icon {
@@ -630,6 +634,7 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title {
+  font-weight: 500; 
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
@@ -670,7 +675,7 @@ a {
 .modal-field-icon {
   position: absolute;
   top: 50%;
-  left: 18px;
+  left: 16px;
   transform: translateY(-50%);
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
