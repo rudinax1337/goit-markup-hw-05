@@ -473,7 +473,9 @@ a {
 }
 
 .team-social-list.footer-social-list {
+  display: flex;
   gap: 16px;
+  justify-content: flex-start;
 }
 
 .team-social-link.footer-social-link:hover,
